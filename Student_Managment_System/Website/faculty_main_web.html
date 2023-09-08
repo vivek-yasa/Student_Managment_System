@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: rgba(13, 0, 255, 0.401);">
+        <div class="container-fluid">
+            <img src="abhaya.png" style="height: 30px; width: 30px;">
+          <a class="navbar-brand" >SCHOOL</a>
+          <a class="navbar-brand" href="attendance.html">Attendance</a>
+          
+          <div class="collapse navbar-collapse" id="navbarText">
+            <span class="navbar-text">
+              <a class="btn btn-primary" href="index.html">logout</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <form class="registration-form" action="add_student.php" method="POST" enctype="multipart/form-data">
+            <h2>Students Registration Form</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="father-name">Mother's Name:</label>
+                <input type="text" name="mother_name" required>
+            </div>
+            <div class="form-group">
+                <label for="mother-name">Father's Name:</label>
+                <input type="text" name="father_name" required>
+            </div>
+            <div class="form-group">
+                <label for="id">Mobile Number:</label>
+                <input type="text" name="mobile_number" required>
+            </div>
+            <div class="form-group">
+                <label for="standard">Standard:</label>
+                <input type="text" name="standard" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Section:</label>
+                <input type="tel" name="section" required>
+            </div>
+            <div class="form-group">
+                <label for="section">Password:</label>
+                <input type="password" name="password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

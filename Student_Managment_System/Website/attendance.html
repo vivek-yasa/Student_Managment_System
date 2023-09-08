@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color: rgba(13, 0, 255, 0.401);">
+        <div class="container-fluid">
+            <img src="abhaya.png" style="height: 30px; width: 30px;">
+          <a class="navbar-brand" >SCHOOL</a>
+          <a class="navbar-brand" href="faculty_main_web.html">Student-Registration</a>
+          
+          <div class="collapse navbar-collapse" id="navbarText">
+            <span class="navbar-text">
+              <a class="btn btn-primary" href="index.html">logout</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    <div class="container">
+        <form class="registration-form" action="attendance.php" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Students</legend>
+                <div class="student">
+           		    	<label>Date</label>
+           		    	<input type="date" class="input" name="data">
+              </div>
+              <br>
+                <div class="student">
+                    <label>Abhinay</label>
+                    <input type="radio" name="student1" value="present" id="present1" checked>
+                    <label for="present1">Present</label>
+                    <input type="radio" name="student1" value="absent" id="absent1">
+                    <label for="absent1">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Harsha</label>
+                    <input type="radio" name="student2" value="present" id="present2" checked>
+                    <label for="present2">Present</label>
+                    <input type="radio" name="student2" value="absent" id="absent2">
+                    <label for="absent2">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Rohith</label>
+                    <input type="radio" name="student3" value="present" id="present3" checked>
+                    <label for="present3">Present</label>
+                    <input type="radio" name="student3" value="absent" id="absent3">
+                    <label for="absent3">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Akash</label>
+                    <input type="radio" name="student4" value="present" id="present4" checked>
+                    <label for="present4">Present</label>
+                    <input type="radio" name="student4" value="absent" id="absent4">
+                    <label for="absent4">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Durga</label>
+                    <input type="radio" name="student5" value="present" id="present5" checked>
+                    <label for="present5">Present</label>
+                    <input type="radio" name="student5" value="absent" id="absent5">
+                    <label for="absent5">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Partheev</label>
+                    <input type="radio" name="student6" value="present" id="present6" checked>
+                    <label for="present6">Present</label>
+                    <input type="radio" name="student6" value="absent" id="absent6">
+                    <label for="absent6">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Vivek</label>
+                    <input type="radio" name="student7" value="present" id="present7" checked>
+                    <label for="present7">Present</label>
+                    <input type="radio" name="student7" value="absent" id="absent7">
+                    <label for="absent7">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Varshith</label>
+                    <input type="radio" name="student8" value="present" id="present8" checked>
+                    <label for="present8">Present</label>
+                    <input type="radio" name="student8" value="absent" id="absent8">
+                    <label for="absent8">Absent</label>
+                </div>
+                <br>
+                <div class="student">
+                    <label>Karthik</label>
+                    <input type="radio" name="student9" value="present" id="present9" checked>
+                    <label for="present9">Present</label>
+                    <input type="radio" name="student9" value="absent" id="absent9">
+                    <label for="absent9">Absent</label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Attendance</button>
+        </form>
+    </div>
+</body>
+</html>

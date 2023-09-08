@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.registration-form {
+    background: linear-gradient(to right, #4c74af, #a0459a); /* Gradient background with two colors */
+    padding: 20px;
+    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Display form elements horizontally */
+    flex-wrap: wrap; /* Allow form elements to wrap to new line if necessary */
+    justify-content: space-between; /* Add space between form elements */
+    
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.form-group {
+    flex-basis: 48%; /* Each form element takes approximately 48% of the container width to allow space in between */
+    margin-bottom: 20px; /* Add some space between form elements */
+    box-sizing: border-box; /* Include padding in the form element's width */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add some space below the label */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Set a light gray background color for input fields */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #4CAF50, #45a049); /* Gradient background for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(to right, #45a049, #4CAF50); /* Gradient background on hover */
+}
